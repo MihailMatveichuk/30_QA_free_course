@@ -1,0 +1,27 @@
+Telegram nickname: @fletcher1991
+Bug_id: 25
+Title: At any size of the widget right and left white dash lines are not displayed 
+
+Severity: Major
+Priority:  Medium
+Environment: 1) Huawei P30, EMUI 12.0.0.132
+2) Huawei P20 LIte, Android 9, EMUI 9.1.0
+Xiaomi Redmi 6A, Android 9, MIUI Global 11.0.8
+Xiaomi Redmi 7A, Android 10, MIUI Global 12.5.2
+Xiaomi Redmi Note 9 Pro, Android 10, MIUI Global 12.0.5 Stable
+Xiaomi Redmi Note 9 Pro, Android 11 RKQ1.200826.002, MIUI Global 12.5.5
+Realme 8 (UI 2.0) Android 11 RMX3085_11_A.24
+
+
+Precondition: Open app
+STR: 1. Click on the “Add widget” button
+	 2. Click on the widget to atlarge it
+
+
+AR: Right and left white dash lines are not visible at any size of widget
+
+ER: All boundary lines of widget are visible
+Attachments: 
+https://drive.google.com/file/d/1HX0Hf8-hrcZAKQj21XpLzbx1AnjEpIYA/view?usp=sharing
+https://drive.google.com/file/d/1cvuvwd3YtyKnfPWlL2q6w4MLt0FQzcVu/view?usp=sharing
+
