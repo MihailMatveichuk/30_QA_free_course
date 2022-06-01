@@ -1,0 +1,28 @@
+Environment: Huawei P30, EMUI 12.0.0.132		Tester: Matveichuk M.	24.05.2022	
+Number	Discription of checking	Expected result	Actual result	Comment
+1	Install App using APK file 	App is installed	PASS	
+2	Open app	App is opened	PASS	
+3	Click on the Save data and uninstall app	App is uninstalled	PASS	
+4	Reinstall the app and try to send email 	Previous attached files not exists and  Pop-up message "Couldn't attach file" is opened;	PASS	
+5	Add the widget and delete app	Widget is not displayed	PASS	
+6	Reinstall the app and check that widget is not exist	Previous added widget is not displayed	PASS	
+7	Confirming an app's memory access request on first open 	Pop-up message "permission was granted, thank you" is displayed	PASS	
+8	Click on the "save data" button	Pop-up message "Data was successfully saved" is displayed	PASS	
+9	Click on the "clear data" button	Pop-up message "Data was successfully deleted" is displayed	PASS	
+10	Repeat item 9 without saved data	Pop-up message "Data does not exist" is displayed	PASS	
+11	Click on the "send email" button	Share menu is opened  	PASS	
+12	Choose the "Gmail"	"Compose new message" window is opened and pop-up message "Couldn't attach file" is displayed	PASS	
+13	Repeat item 11 without saved data	"Compose new message" window is opened and "grid_data.txt" file is created after sending pop-up message "Data was successfully saved" is displayed	PASS	
+14	Click on the "add widget"	Widget is displayed on dekstop	PASS	
+15	Add widget using widget bar		PASS	
+16	Click on the widget	App "Android Grid Test" is opened	PASS	
+17	Change a size of widgets	Widget's size is changed and white lines dash are visible 	"1. At  any size of widget is visible only top and bottom dash line 
+2. When widget has a height equals 458/584 dash lines is not visible 
+"	BR №25
+18	"Repeat item 17 using all variety of size of grid
+ https://docs.google.com/spreadsheets/d/1gR1ecynGRA8yh1VlsoBw7nSWyVFVBIkTOFmO6T0IsVA/edit#gid=0"			
+19	Change a text size and weight setting	Title text of app "App for testing android launcher grid" is not changed and not moved	  Title text of app "App for testing android launcher grid"  is moved to left	
+20	Repeat items 15,18,19 opening app in the Multi-window mode	See items 15,18,19	See items 15,18,19	
+21	Execute all checks withoud access to memory	Pop-up message "you have to provide permissions" is displayed	PASS	
+22	Add widget without free place on the work screen 	Widget is not added	PASS	
+23	Send data  "grid_data.txt" file previously delete it from android data	File is not exist	PASS	
